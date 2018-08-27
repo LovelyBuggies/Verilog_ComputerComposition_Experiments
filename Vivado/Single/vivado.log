@@ -1,0 +1,127 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Jun 11 16:10:27 2018
+# Process ID: 4216
+# Log file: E:/计组/Single_CPU/vivado.log
+# Journal file: E:/计组/Single_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/计组/Single_CPU/Single_CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.1/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:49 . Memory (MB): peak = 648.734 ; gain = 103.707
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/计组/Single_CPU/Single_CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/Data_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/Control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/计组/Single_CPU/Single_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 651.305 ; gain = 0.000
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/计组/Single_CPU/Single_CPU.sim/sim_1/behav'
+Vivado Simulator 2015.1
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.1/bin/unwrapped/win64.o/xelab.exe -wto 0a9f3713727f4679976fc888274a353b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Control_unit
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.Data_Mem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/计组/Single_CPU/Single_CPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/计组/Single_CPU/Single_CPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 11 16:16:48 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 11 16:16:48 2018...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:36 . Memory (MB): peak = 654.590 ; gain = 3.285
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/计组/Single_CPU/Single_CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.1
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 667.730 ; gain = 13.141
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:59 . Memory (MB): peak = 667.730 ; gain = 16.426
+add_wave {{/CPU_sim/cpu}} 
+add_wave {{/CPU_sim/cpu/pc}} 
+add_wave {{/CPU_sim/cpu/id}} 
+add_wave {{/CPU_sim/cpu/control_unit}} 
+add_wave {{/CPU_sim/cpu/regfile}} 
+add_wave {{/CPU_sim/cpu/size_extend}} 
+add_wave {{/CPU_sim/cpu/alu}} 
+add_wave {{/CPU_sim/cpu/d_m}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 2005 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 4000 ns
+add_wave {{/CPU_sim/cpu/alu/rega}} {{/CPU_sim/cpu/alu/regb}} 
+add_wave {{/CPU_sim/cpu/d_m/Data_store}} 
+run 4000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 761.082 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 11 21:33:18 2018...

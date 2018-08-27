@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mup_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mup_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_MemData.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_MemData
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_InsMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_InsMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_BDR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_BDR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_ALUout.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_ALUout
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_ALUM2DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_ALUM2DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_ADR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_ADR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sources_1/new/Mul_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.srcs/sim_1/new/Mul_Preiod_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_Preiod_CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "Mul_Preiod_CPU_tb_func_synth.v"
+verilog xil_defaultlib  "../../../../Multipul_period_CPU.srcs/sim_1/new/Mul_Preiod_CPU_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

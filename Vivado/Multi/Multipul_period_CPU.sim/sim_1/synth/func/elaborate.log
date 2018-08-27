@@ -1,0 +1,40 @@
+Vivado Simulator 2015.1
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado2015/Vivado/2015.1/bin/unwrapped/win64.o/xelab.exe -wto ec73e6f356cf4cc5a989c4c1103c3e98 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Mul_Preiod_CPU_tb_func_synth xil_defaultlib.Mul_Preiod_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.Mup_ALU
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.Mul_ALUout
+Compiling module xil_defaultlib.Mul_BDR
+Compiling module xil_defaultlib.Mul_ControlUnit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mul_IR
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE(IS_C_INVERTED=1'b1)
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.Mul_PC
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.RAM32M(IS_WCLK_INVERTED=1'b1)
+Compiling module xil_defaultlib.Mul_RegFile
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.Mul_Top
+Compiling module xil_defaultlib.Mul_Preiod_CPU_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Mul_Preiod_CPU_tb_func_synth

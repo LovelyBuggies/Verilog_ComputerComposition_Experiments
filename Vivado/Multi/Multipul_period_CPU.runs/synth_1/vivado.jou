@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Fri Jun 29 16:47:13 2018
+# Process ID: 8828
+# Log file: C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.runs/synth_1/Mul_Top.vds
+# Journal file: C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Mul_Top.tcl -notrace

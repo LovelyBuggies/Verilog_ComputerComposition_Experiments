@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Fri Jun 29 20:02:13 2018
+# Process ID: 10212
+# Log file: C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/behav/xsim.dir/Mul_Preiod_CPU_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3997005731 -regid "" -xml C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/behav/x..."
+    (file "C:/Users/13612/Desktop/ECOP-16340139-03/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/behav/xsim.dir/Mul_Preiod_CPU_tb_behav/webtalk/xsim_webtalk...." line 32)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun 29 20:02:14 2018...

@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/synth/func/Mul_Preiod_CPU_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_ALUout
+INFO: [VRFC 10-311] analyzing module Mul_BDR
+INFO: [VRFC 10-311] analyzing module Mul_ControlUnit
+INFO: [VRFC 10-311] analyzing module Mul_IR
+INFO: [VRFC 10-311] analyzing module Mul_PC
+INFO: [VRFC 10-311] analyzing module Mul_RegFile
+INFO: [VRFC 10-311] analyzing module Mul_Top
+INFO: [VRFC 10-311] analyzing module Mup_ALU
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.srcs/sim_1/new/Mul_Preiod_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_Preiod_CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.sim/sim_1/synth/func/glbl.v:6]

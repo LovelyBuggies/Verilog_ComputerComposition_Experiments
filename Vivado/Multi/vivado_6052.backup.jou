@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Fri Jun 29 19:16:40 2018
+# Process ID: 6640
+# Log file: C:/Users/13612/Desktop/Multipul_period_CPU/vivado.log
+# Journal file: C:/Users/13612/Desktop/Multipul_period_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13612/Desktop/Multipul_period_CPU/Multipul_period_CPU.xpr
+launch_simulation
+source Mul_Preiod_CPU_tb.tcl
+restart
+run 17 us
+restart
+run 20 us
+add_wave {{/Mul_Preiod_CPU_tb/CPU/ControlUnit/state}} 
+add_wave {{/Mul_Preiod_CPU_tb/CPU/RegFile/ReadData1}} 
+add_wave {{/Mul_Preiod_CPU_tb/CPU/RegFile/ReadData2}} 
+add_wave {{/Mul_Preiod_CPU_tb/CPU/Extend/immediateOut}} 
+add_wave {{/Mul_Preiod_CPU_tb/CPU/ALUOUT/ALUout}} 
+add_wave {{/Mul_Preiod_CPU_tb/CPU/RegFile}} 
+restart
+run 20 us
+close_sim
